@@ -1,0 +1,30 @@
+//How to create a  new github repository in github browser
+1.go to github in chrome
+2.click profile logo and select your repostories
+3.and select new and type some name and select README file
+and give submit
+
+
+//download github repostories to local folders
+1.go to gitbash
+2.go to the folder
+3.where we want to store the github repostories
+4.cd <FOLDER_NAME> -> To go inside folder
+5.ls -> To list all contents of folder
+6.git clone https://github.com/Arun9745/learning.git
+
+
+
+//one time setup for atom
+1.click bottom right git
+2.type your name and mail id
+3.And select use for all repostories
+
+
+//how to commit local changes to github
+1.go to bottom right github
+2.click the file in unstaged changes and click stage all
+3.check the file showing  under staged changes
+4.enter the commit message
+5.commit
+6.click push buttons
