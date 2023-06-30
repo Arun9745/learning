@@ -30,7 +30,7 @@ go to github broser
 
 
 //how to commit local changes to github
-1.go to bottom right github
+1.go to bottom right git
 2.click the file in unstaged changes and click stage all
 3.check the file showing  under staged changes
 4.enter the commit message
