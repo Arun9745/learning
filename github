@@ -20,6 +20,14 @@ and give submit
 2.type your name and mail id
 3.And select use for all repostories
 
+//  how to create a password
+go to github broser
+1.and select profile  and go to settings
+2.and go to developer settings and select personal access tokens and select token classic
+3.and generate new token classic and give some name and give no expiration
+4.and click repo and give generate token.
+
+
 
 //how to commit local changes to github
 1.go to bottom right github
