@@ -1,7 +1,12 @@
-CSS -Cascading style sheets
-Presentation of web page,and fonts
-inline-style attribute inside HTML elements
-internal-using<style>in <head>section
-external-using<link>to an external CSS file
-css work in visual studio code with live scanner
-we wse 2 files index.html,style.css.
+css cascadind style sheets
+//internal
+giving styles in  same program
+//external
+giving styles in another files
+ex:link
+\\inline
+styles in same line <p style=clor;
+//class
+It change particular paragraph
+//id
+It change only mentioned paragraph
