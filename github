@@ -7,11 +7,10 @@ and give submit
 
 //download github repostories to local folders
 1.go to gitbash from main destop
-2.go to the folder
-3.where we want to store the github repostories
+2.go to the folder where we want to store the github repostories
 4.cd <FOLDER_NAME> -> To go inside folder
 5.ls -> To list all contents of folder
-6.git clone https://github.com/Arun9745/learning.git
+6.type command "git clone https://github.com/Arun9745/learning.git"
 
 
 
