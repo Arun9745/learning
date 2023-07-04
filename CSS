@@ -10,3 +10,97 @@ styles in same line <p style=clor;
 It change particular paragraph
 //id
 It change only mentioned paragraph
+css-cascading style sheets
+LEVEL 1 (basics of css)
+-------
+html-structure/layout of website
+css-style
+js-logic(working)
+css is a language that is used to describe the style of a document
+!+enter= basic html format in VISUAL STUDIO
+basic syntax of css
+selector: to select the element where the css to be applied
+property: eg. color
+value(;): specification of that property eg.red (;)
+including style-3 ways
+inline
+<h1 style="color: red"> Hello </h1>
+style tag
+<style>
+h1{
+color: red;
+}
+</style>
+external stylesheet:
+writing CSS in a separate document and linking it with html file
+this is including a line in head tag
+<link rel="stylesheet" href="file name">
+rel:(relation)this attribute names a relationship of the linked document to the current document
+href: this attribute specifies the URL of the linked resource(file name)
+-------------------------------------------------------------------------------------------------------
+Color property
+used to set the color of foreground(text, button, link)
+color: red;
+Background color property
+used to set the color of background
+background-color: pink;
+process of design :
+figma------frontend------copying the code for the design
+tip1:<p class="first"> --- .first
+tip2:<p id="second"> -----#second
+tip3:<h2>third</h2> ------h1
+eg.
+h1{
+background-color: blue;
+}
+------------------------------------------------------------------------------------------------------------
+COLOR SYSTEMS
+-------------
+RGB:RED GREEN BLUE (follow the color theory)---use 'colour picker' from google
+range: 0-255
+eg: red=rgb(255,0,0)
+    blue=rgb(0,0,255)
+    yellow=rgb(255,255,0)
+HEX(Hexadecimal) 0-f
+16 digits(0-9 and a,b,c,d,e,f)
+range: 0-ff
+color:#ff0000;
+following same rgb colors:
+ff 00 00
+r   g  b =RED
+eg: red=#ff0000
+    green=#00ff00
+    white=#000000
+    yellow=#ffff00
+-----------------------------------------------------------------------------------------------------------
+SELECTORS
+---------
+tip1: '*' - asterisk
+tip2: '&' - ampersand
+tip1:<p class="first"> --- .first
+tip2:<p id="second"> -----#second
+tip3:<h2>third</h2> ------h1
+eg.
+h1{
+background-color: blue;
+}
+1. Universal SELECTOR *{}
+selects all the things in the html
+eg. *{
+color: blue;
+}
+2. Element SELECTOR -h1{}
+for the particular element like heading, button, paragraph
+eg. button{
+color: brown;
+}
+3. Id SELECTOR - #myld{}
+unique name/individual id for the element (best for single elements)
+eg. #headingone{
+color: yellow;
+}
+4. Class SELECTOR- .myClass{}
+when multiple elements need same styling id
+eg: .myclass{
+color: pink;
+}
