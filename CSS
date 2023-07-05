@@ -4,7 +4,7 @@ giving styles in  same program
 //external
 giving styles in another files
 ex:link
-\\inline
+//inline
 styles in same line <p style=clor;
 //class
 It change particular paragraph
@@ -104,3 +104,33 @@ when multiple elements need same styling id
 eg: .myclass{
 color: pink;
 }
+
+
+
+//Inline css
+single element with the insert style sheets in a HTML document
+ex:<h1 styly="color:red">hello<h1>
+
+
+
+
+//External CSS
+create a condition in another file and give a link in excute file.
+ex:link rel="stylesheet" href="style.css">
+
+
+
+//Internal CSS
+crete a condition in same excute file.
+ex:<style>{
+  background-color: red;
+}
+</style>
+
+
+
+//background
+background-color: blue;
+
+
+//dis
