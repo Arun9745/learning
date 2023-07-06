@@ -1,0 +1,20 @@
+//java new project
+go to the intellij communit version
+open new project and rename the project
+change the file location in java
+and crete a java file.
+----------------------------------------------
+
+first program sample:
+
+after running the code
+click src button and click new and give some name in capital.
+ex(FirstProgram)
+
+
+
+
+--------------------------------------------------------
+shortcuts:
+psvm -to crate a main method in java
+sout-to print in console
