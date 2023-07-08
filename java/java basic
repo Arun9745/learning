@@ -4,3 +4,21 @@ Data types specify the different sizes and values that can be stored in the vari
 
 Primitive data types: The primitive data types include boolean, char, byte, short, int, long, float and double.
 Non-primitive data types: The non-primitive data types include Classes, Interfaces, and Arrays.
+
+
+
+
+//operators
+
+Operator in Java is a symbol that is used to perform operations. For example: +, -, *, / etc.
+
+There are many types of operators in Java which are given below:
+
+*Unary Operator,
+*Arithmetic Operator,
+*Shift Operator,
+*Relational Operator,
+*Bitwise Operator,
+*Logical Operator,
+*Ternary Operator and
+*Assignment Operator.
