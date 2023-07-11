@@ -59,4 +59,22 @@ example
 
 \\queue example
 First in first out
+Alt + Enter----->import to particular data structure
 example
+
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class QueueExample {
+    public static void main(String[] args) {
+        Queue queuenumbers = new LinkedList();
+        queuenumbers.add(99);
+        queuenumbers.add(98);
+        queuenumbers.add(97);
+        queuenumbers.add(96);
+        System.out.println(queuenumbers.poll());
+        System.out.println(queuenumbers.poll());
+        System.out.println(queuenumbers.poll());
+    }
+}
