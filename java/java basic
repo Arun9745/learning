@@ -30,3 +30,33 @@ There are many types of operators in Java which are given below:
 \\ sout
 Adding content and variables.
 ex("the number is "  + c)
+
+
+
+
+\\stack example
+Last in first sout
+example
+ public static void main(String[] args) {
+
+        Stack stacknumbers = new Stack();
+        stacknumbers.add(100);
+        stacknumbers.add(101);
+        stacknumbers.add(102);
+        stacknumbers.add(103);
+        stacknumbers.add(104);
+        System.out.println(stacknumbers.pop());
+        System.out.println(stacknumbers.pop());
+        System.out.println(stacknumbers.pop());
+    }
+}
+
+
+
+
+
+
+
+\\queue example
+First in first out
+example
