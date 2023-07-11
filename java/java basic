@@ -14,11 +14,19 @@ Operator in Java is a symbol that is used to perform operations. For example: +,
 
 There are many types of operators in Java which are given below:
 
-*Unary Operator,
-*Arithmetic Operator,
-*Shift Operator,
-*Relational Operator,
-*Bitwise Operator,
-*Logical Operator,
-*Ternary Operator and
+*Unary Operator
+*Arithmetic Operator
+*Shift Operator
+*Relational Operator
+*Bitwise Operator
+*Logical Operator
+*Ternary Operator
 *Assignment Operator.
+
+
+
+
+
+\\ sout
+Adding content and variables.
+ex("the number is "  + c)
