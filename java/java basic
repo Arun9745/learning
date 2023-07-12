@@ -42,6 +42,34 @@ ex(int to double)
 
 
 
+//String Length
+
+.Length
+
+String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+System.out.println("The length of the txt string is: " + txt.length());
+
+
+//Uppercase,Lowercase
+String txt = "Hello World";
+System.out.println(txt.toUpperCase());   // Outputs "HELLO WORLD"
+System.out.println(txt.toLowerCase());   // Outputs "hello world"
+
+
+//Find a character in a StringThe indexOf() method returns the index (the position) of the first occurrence of a specified text in a string
+ex:   String txt = "Please locate where 'locate' occurs!";
+System.out.println(txt.indexOf("locate")); // Outputs 7
+
+
+
+//concat two strings
+You can also use the concat() method to concatenate two strings:
+String firstName = "John ";
+String lastName = "Doe";
+System.out.println(firstName.concat(lastName));
+
+
+
 \\ sout
 Adding content and variables.
 ex("the number is "  + c)
