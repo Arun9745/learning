@@ -142,5 +142,249 @@ This is four types
 
 
 
-//Padding
-we give padding right means,te edge of the box will increase.
+
+
+DISPLAY PROPERTY
+----------------
+in html, there are two types of elements:
+block: occupies 100% width(div,h1)--starts from next line by default
+inline: occupies only required width(button, input, anchor tag)
+display: inline / block / inline-block / none
+inline:-takes only the space required by the element (no margin/padding)
+block:-takes full space available in width
+inline-block:-similar to inline but we can set margin and padding
+none: to remove the element from document flow/ to make it disappear
+
+
+VISIBLITY PROPERTY
+------------------
+visibilty: hidden; ( to make elements invisible)
+NOTE:--- When visibility is set to none(hidden), space for the element is reserved.
+But for display set to none, no space is reserved or blocked for the element.
+
+
+ALPHA CHANNEL
+-------------
+opacity (0 to1)------can be used to set visibilty
+RGBA:-
+color: rgba(255, 0, 0, 0.5)----mild red with partial opacity
+color: rgba(255, 0, 0, 1)-----red with full appearance
+--------------------------------------------------------------------------------
+
+
+UNITS IN CSS
+------------
+absolute units: px, cm, mm, and inch (fixed)
+
+
+relative units:--
+----------------
+percentage (%):-
+it is often used to define a size as relative to an element's parent object
+eg. <div>
+      <div></div>
+    </div>
+    div1- parent
+    div2-child
+width: 33%; ----- div1(100%) and div2(33%)
+em:-font size of the parent
+2em= two times of the parent's font size
+rem(root em)-font size of the root element
+(depends upon the font size of the root element or basic element)
+vh--relative to 1% viewport(browser)height
+vw--relative to 1% viewport width
+eg. height: 1vh;----it becomes the one percent of viewport height
+    height: 50vh;---it becomes the 50% of viewport height
+
+
+POSITION PROPERTY
+-----------------
+the position css property sets how an element is positioned in a document
+position: static / relative / absolute / fixed;
+-----------------------------------------------
+tip: #box---= <div id="box"></div>
+static:-default position (cannot be changed) any position have no effect
+relative:-element is relative to itself
+(the top, right, bottom, left and z-index will work)
+absolute:-positioned relative to its closest positioned ancestor
+fixed:-used top create navbars
+positioned relative to browser; always stays in the same position
+sticky:-position based on user's scroll position
+becomes fixed  when the scroller reaches the correct position
+z-index: it decides the stack level(layer) of elements
+overlapping elements with a larger z-index cover those with a smaller one
+comes related to the z-axis in the math axis plane(3d)
+z-index: auto(0)
+z-index: 1/2...
+z-index: -1/-2...
+
+
+BACKGROUND IMAGE
+----------------
+used to set an image as background
+background-image: url("image.jpeg");
+background-size: cover / contain / auto
+cover: no empty space in the container of image, completely fits in
+contain: fit image completely (image becomes small to fit in the container)
+auto : by default how much the image is able to get in the container
+--------------------------------------------------------------------------------
+
+
+Flexbox (flexible box layout)
+-----------------------------
+It is a one-dimensional layout method for arranging items in rows or columns.
+flex container----display: flex;
+flex item----elements present in the flex container
+main axis---horizontal direction
+cross axis---vertical direction
+
+
+Flexbox direction
+-----------------
+It sets how flex items are placed in the flex container
+along which axis and direction
+flexbox-direction: row; (default)---main-axis: left to right
+flexbox-direction: row-reverse;----main axis: right to left
+flexbox-direction: column;-----main-axis: top to bottom
+flexbox-direction: column-reverse;---main-axis: bottom to top
+tip1: direction is such a property used for the whole container and not for the individual items
+tip2: it always fits inside the container, till the space of content is not disturbed
+
+
+FLEX PROPERTIES:----for flex container
+---------------
+justify-content: alignment along the main axis
+flex start / flex-end / centre / space-evenly / space-between / space-around;
+#flex-start: start of the main axis
+#flex-end: end of the main axis
+#centre: aligns along the centre of main axis
+#space-around: space given equally...the margin space is half of the space given inbetween
+#space-betwwen: no extra spaces in the margins
+#space-evenly: evenly spread of spaces (both margins and inbetween)
+flex-wrap: nowrap / wrap / wrap-reverse
+align-items : alignment along the cross axis
+align-content : alignment of space between and around the content area
+
+
+FLEX PROPERIIES:-----for flex items
+----------------------------------
+align-self: alignment of individual along the cross axis
+flex-grow: how much a flex item will grow relative to the rest of the flex items if space is available
+flex-shrink: how much a flex item will shrink relative to the rest of the flex items if space is available
+--------------------------------------------------------------------------------
+
+
+MEDIA QUERIES
+-------------
+helps create a responsive website
+for changing color, size and properties for various screen size
+@media(width: 600px){
+div{
+background-color: red
+}
+}
+@media(min-width: 600px){
+div{
+background-color: red;
+}
+}
+@media(min-width: 200px) and (max-width:300px){
+div{
+background-color: red;
+}
+}
+
+
+
+TRANSITIONS property
+--------------------
+Transitions enable you to define the transition between two states ( hovered, active) of an element.
+transition property: property you want to transition (font-size, width,)
+transition-duration: 2s / 4ms
+transition-timing-function: ease-in / ease-out / linear / steps
+transition-delay: 2s / 4ms
+setting a pseudoclass: defines different state of the element
+TRANSITION SHORTHAND:
+property name--duration--timing function--delay
+transition: font-size 2s ease-in-out 0.2s;
+
+
+CSS transform
+-------------
+Used to apply 2D and 3D transformations to an element
+
+
+ROTATE:
+-------
+transform: rotate(45deg);
+rotate: 45deg;
+rotateX: 45deg;
+rotateY: 45deg;
+rotateZ: 45deg;
+
+
+SCALE
+-----
+transform: scale(2);-----x,y
+transform: scale(1,2);------x=1, y=2
+transorm-scaleX(2);-----ONLY ALONG X AXIS
+
+
+
+
+TRANSLATE
+---------
+used to move the position of the element from the origin along its axis
+transform: translate(20px);-----translate in both axis
+transform: translate(20px,50px);
+transform: translateX(20px);-----right side
+transform: translateX(-20px);-----left side
+
+
+
+SKEW
+----
+It's a mixture of different effects
+Draging from both the corners of the element
+transform: skew (30deg);
+
+
+
+
+ANIMATION
+---------
+To animate CSS elements
+@keyframe myName{
+from{font-size: 20px;}
+to{font-size: 40px;}
+}
+----keyframe---template / blueprint / layout
+--- myName----name of my animation
+
+
+
+ANIMATION properties
+--------------------
+animation-name
+animation-duration
+animation-timing-function
+animation-delay
+animation-iteration-count = how many times my animation has to apply
+animation-direction
+normal=from -to (plays forwards each cycle)
+reverse=to-from (plays backward each cycle)
+alternate= reverses direction each cycle
+
+
+Animation SHORTHAND
+-------------------
+animation: myName 2s linear 3s infinite normal
+{name-duration-timing function-delay-iteration count-direction}
+% in Animation
+--------------
+to make changes in the middle of animation process i.e. from(0%)- to(100%)
+@keyframe myName{
+0% {font-sixe:20px;}
+50% {font-size:30px;}
+100% {font-size:40px;}
+}
