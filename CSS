@@ -388,3 +388,18 @@ to make changes in the middle of animation process i.e. from(0%)- to(100%)
 50% {font-size:30px;}
 100% {font-size:40px;}
 }
+
+
+
+
+Z-index
+--------------
+When elements are positioned, they can overlap other elements.
+
+The z-index property specifies the stack order of an element (which element should be placed in front of, or behind, the others).
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
