@@ -72,7 +72,7 @@ System.out.println(firstName.concat(lastName));
 //ArraysArrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
 
 To declare an array, define the variable type with square brackets:
-
+-------------------------------------------------------------------------------
 
 
 
@@ -84,6 +84,17 @@ String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
 for (int i = 0; i < cars.length; i++) {
   System.out.println(cars[i]);
 }
+-------------------------------------------------------------------------
+
+
+///Java Continue Statement
+
+The continue statement is used in loop control structure when you need to jump to the next iteration of the loop immediately. It can be used with for loop or while loop.
+
+The Java continue statement is used to continue the loop. It continues the current flow of the program and skips the remaining code at the specified condition. In case of an inner loop, it continues the inner loop only.
+
+We can use Java continue statement in all types of loops such as for loop, while loop and do-while loop.
+
 
 
 
