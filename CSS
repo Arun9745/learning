@@ -403,3 +403,14 @@ img {
   top: 0px;
   z-index: -1;
 }
+
+
+
+
+Navigation background
+
+A navigation bar needs standard HTML as a base.
+
+In our examples we will build the navigation bar from a standard HTML list.
+
+A navigation bar is basically a list of links, so using the <ul> and <li> elements makes perfect sense:
