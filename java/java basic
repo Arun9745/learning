@@ -71,7 +71,7 @@ System.out.println(firstName.concat(lastName));
 
 //ArraysArrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
 
-To declare an array, define the variable type with square brackets:
+To declare an array, define the variable type with square brackets
 -------------------------------------------------------------------------------
 
 
@@ -100,7 +100,7 @@ We can use Java continue statement in all types of loops such as for loop, while
 
 
 
-telusko ---youtube channel
+telusko ---youtube channel for java basic
 
 
 
