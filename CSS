@@ -41,7 +41,7 @@ this is including a line in head tag
 rel:(relation)this attribute names a relationship of the linked document to the current document
 href: this attribute specifies the URL of the linked resource(file name)
 -------------------------------------------------------------------------------------------------------
-Color property
+Color  property
 used to set the color of foreground(text, button, link)
 color: red;
 Background color property
