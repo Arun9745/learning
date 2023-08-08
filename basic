@@ -6,3 +6,9 @@ use keyword let for giving variables
 ex:let num=0;
 And use const keyword for constant variables.It will not change the value afetr we assign it.
 ex:const pi=3.14
+
+we use "typeof" in console.log for know about it is string or number.
+ex:let num=1234556;
+let name="Arun";
+console.log(typeof name)
+output---->string 
