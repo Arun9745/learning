@@ -1,1 +1,8 @@
 Basic
+In js for printing the output use console.log.
+example: console.log("Hello World")
+
+use keyword let for giving variables
+ex:let num=0;
+And use const keyword for constant variables.It will not change the value afetr we assign it.
+ex:const pi=3.14
