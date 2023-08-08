@@ -16,3 +16,6 @@ output---->string
 
 number+string=string
 number-string=number
+
+In javascript the boolean function is make true or false
+false-->0,"",undefined value,null.
