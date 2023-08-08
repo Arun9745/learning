@@ -11,4 +11,8 @@ we use "typeof" in console.log for know about it is string or number.
 ex:let num=1234556;
 let name="Arun";
 console.log(typeof name)
-output---->string 
+output---->string
+
+
+number+string=string
+number-string=number
