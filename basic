@@ -66,4 +66,10 @@ let num1=4;
 let num2=4;
 let res= num1+num2;
 
-console.log(`the add of ${num1} and ${num2} is ${res}`)     
+console.log(`the add of ${num1} and ${num2} is ${res}`)
+
+while loop--->1.check for the condition
+              2.execute the block
+
+Do while loop--->1.execute the block
+                 2.check for the condition
