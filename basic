@@ -20,7 +20,7 @@ number-string=number
 In javascript the boolean function is make true or false
 false-->0,"",undefined value,null.
 
-In variable number and string are combine we want only output number and use "parseInt"
+In variables number and string are combine we want only output number and use "parseInt"
 ex:parseInt(123 Arun)
 
 == -->It takes only data
@@ -33,3 +33,37 @@ For using if else statement, there  is a keyword ?:
 
      res=arr%2==0?"even":"odd"
      console.log(res)//
+
+//switch statement
+
+et day="sat";
+
+switch(day){
+    case'monday':
+    console.log("7am")
+    break;
+    case'tuesday':
+    console.log("8am")
+    break;
+    case'wed':
+    console.log("8am")
+    break;
+    console.log("9am")
+    break;
+    case'fri':
+    console.log("9am")
+    break;
+    case'sat':
+    console.log("4am")
+    break;
+}
+
+
+
+//Template Literal
+
+let num1=4;
+let num2=4;
+let res= num1+num2;
+
+console.log(`the add of ${num1} and ${num2} is ${res}`)     
