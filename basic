@@ -25,3 +25,11 @@ ex:parseInt(123 Arun)
 
 == -->It takes only data
 ===  --->It takes both data and types
+
+
+For using if else statement, there  is a keyword ?:
+   //let arr=8;
+     let res;
+
+     res=arr%2==0?"even":"odd"
+     console.log(res)//
