@@ -19,3 +19,9 @@ number-string=number
 
 In javascript the boolean function is make true or false
 false-->0,"",undefined value,null.
+
+In variable number and string are combine we want only output number and use "parseInt"
+ex:parseInt(123 Arun)
+
+== -->It takes only data
+===  --->It takes both data and types
