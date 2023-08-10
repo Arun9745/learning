@@ -73,3 +73,18 @@ while loop--->1.check for the condition
 
 Do while loop--->1.execute the block
                  2.check for the condition
+
+
+
+//object Literal
+ for delete an variables in object use keyword "delete"
+ example:let alien={
+    name:'arun',
+    brand:'js',
+    laptop:{
+        ram:4,
+        cpu:7,
+    }
+}
+delete alien.laptop
+console.log(alien)                 
