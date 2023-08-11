@@ -92,7 +92,7 @@ console.log(alien.laptop?.ram)
 -----------------------------------------------------------
 //Arrow function
 arrow function is used for function for giving data in one line
-
+arrow function---> =>
 Example:
    //Normal function
    let add=function(num1,num2){
