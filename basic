@@ -74,8 +74,7 @@ while loop--->1.check for the condition
 Do while loop--->1.execute the block
                  2.check for the condition
 
-
-
+----------------------------------------------------------------
 //object Literal
 for checking property by using ? mark,it will check the command and after it run the code.
  for delete an variables in object use keyword "delete"
@@ -88,4 +87,22 @@ for checking property by using ? mark,it will check the command and after it run
     }
 }
 delete alien.laptop
-console.log(alien.laptop?.ram)                 
+console.log(alien.laptop?.ram)
+
+-----------------------------------------------------------
+//Arrow function
+arrow function is used for function for giving data in one line
+
+Example:
+   //Normal function
+   let add=function(num1,num2){
+     return num1+num2;
+    }
+   let sum=add(5,6)
+   console.log(sum)
+
+   //Arrow Function
+
+    let ad=(num1,num2)=>num1+num2
+    let su=ad(5,6)
+    console.log(su)
