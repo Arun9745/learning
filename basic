@@ -145,3 +145,11 @@ example:
      let data=[1,2,3,4]
      console.log(data.shift());
      console.log(data)---->output:[2,3,4]
+
+     //UNSHIFT
+     Add a value in the array.
+     The value add in the first array.
+     example:
+     let data=[1,2,3,4]
+     console.log(data.unshift(0));
+     console.log(data)---->output:[0,1,2,3,4]
