@@ -121,3 +121,27 @@ example:
    }
    }
    laptop1.greet();
+
+   //Push
+   add a value in the array.
+   example:
+    let data=[1,2,3,4]
+    console.log(data.push(3));
+    console.log(data)---->output:[1,2,3,4,3]
+
+
+    //pop
+    remove a value in the array.
+    Last in first out.
+    example:
+    let data=[1,2,3,4]
+    console.log(data.pop());
+    console.log(data)---->output:[1,2,3]
+
+    //shift
+     Move a value in the array.
+     First in first out.
+     example:
+     let data=[1,2,3,4]
+     console.log(data.shift());
+     console.log(data)---->output:[2,3,4]
