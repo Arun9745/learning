@@ -99,10 +99,25 @@ Example:
      return num1+num2;
     }
    let sum=add(5,6)
-   console.log(sum)  
+   console.log(sum)
 
    //Arrow Function
 
     let ad=(num1,num2)=>num1+num2
     let su=ad(5,6)
     console.log(su)
+
+
+//this Function
+It is used for mention the object.
+example:
+   let laptop1={
+   cpu:'i9',
+   ram:16,
+   brand:'hp',
+
+   greet: function(){
+   console.log(this.cpu);
+   }
+   }
+   laptop1.greet();
