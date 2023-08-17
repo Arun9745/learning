@@ -32,11 +32,11 @@ For using if else statement, there  is a keyword ?:
      let res;
 
      res=arr%2==0?"even":"odd"
-     console.log(res)//
+     console.log(res)
 
 //switch statement
 
-et day="sat";
+let day="sat";
 
 switch(day){
     case'monday':
@@ -58,7 +58,7 @@ switch(day){
     break;
 }
 
-
+------------------------------------------------------
 
 //Template Literal
 
@@ -67,6 +67,9 @@ let num2=4;
 let res= num1+num2;
 
 console.log(`the add of ${num1} and ${num2} is ${res}`)
+output--->the add of 4 and 4 is 8
+
+-------------------------------------------------------------
 
 while loop--->1.check for the condition
               2.execute the block
@@ -76,7 +79,7 @@ Do while loop--->1.execute the block
 
 ----------------------------------------------------------------
 //object Literal
-for checking property by using ? mark,it will check the command and after it run the code.
+for checking property by using ? mark. It will check the command and after it run the code.
  for delete an variables in object use keyword "delete"
  example:let alien={
     name:'arun',
@@ -153,3 +156,12 @@ example:
      let data=[1,2,3,4]
      console.log(data.unshift(0));
      console.log(data)---->output:[0,1,2,3,4]
+
+     //Splice
+     t a remove a value in the middle.
+     example:
+     let data=[1,2,3,4]
+     console.log(data.splice(1,1));
+     console.log(data)---->output:[1,3,4]
+
+     //array destructing
