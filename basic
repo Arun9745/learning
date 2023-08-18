@@ -141,6 +141,8 @@ example:
     console.log(data.pop());
     console.log(data)---->output:[1,2,3]
 
+
+
     //shift
      Move a value in the array.
      First in first out.
