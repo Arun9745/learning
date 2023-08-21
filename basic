@@ -176,3 +176,15 @@ example:
       nums.forEach( n=>{
      console.log(n*2);
       });
+
+      //Array Filter
+      let num=[42,54,65,75,43];
+      num.filter( n=>n%2===0)
+
+      .forEach( n=>{
+      console.log(n);
+       });
+
+
+      //Map
+      It take a value and change it.
