@@ -167,3 +167,12 @@ example:
      console.log(data)---->output:[1,3,4]
 
      //array destructing
+     let words="My name is Arun java script".split(' ');
+      let [a,b,c,d,e,f]=words;
+     console.log(d);
+
+     //For each method
+     let nums=[42,54,65,75,43];
+      nums.forEach( n=>{
+     console.log(n*2);
+      });
