@@ -198,4 +198,20 @@ example:
 
        //Set
        In javascript the set function is not give repeat values.
-       Example:bookkeeper-->output:'b''o''k''e''p''r'
+       Example:bookkeeper-->output:'b''o''k''e''p''r'.
+
+
+       //.has
+       The .has function is used to boolean type of set.
+       example:
+       let numss=new Set();
+
+       numss.add(1);
+       numss.add(2);
+       numss.add(3);
+       numss.add("Arun");
+       numss.add("Prasanth");
+       numss.add("java script");
+
+        console.log(numss.has(3));
+        output:True.
