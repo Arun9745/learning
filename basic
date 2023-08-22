@@ -217,7 +217,7 @@ example:
         output:True.
 
         //map
-
+        It is basically collecting a values and index values.
 
        let map=new Map();
 
@@ -228,3 +228,19 @@ example:
        console.log(map.get("Arun"));
 
        output:Java
+
+       //Map using for loop
+       let map=new Map();
+
+map.set("Arun","java");
+map.set("Ravi","JavaScript");
+map.set("Allen","Bootstarp");
+
+for(let [k,n]of map){
+ console.log(k," : ",n);
+}
+
+output:
+Arun  :  java
+Ravi  :  JavaScript
+Allen  :  Bootstarp
