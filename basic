@@ -244,3 +244,15 @@ output:
 Arun  :  java
 Ravi  :  JavaScript
 Allen  :  Bootstarp
+
+//Recursion
+
+let num=1;
+function show(){
+    console.log("Hi",num);
+    num++;
+    if(num<=100)
+    show();
+}
+
+show();
