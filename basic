@@ -215,3 +215,16 @@ example:
 
         console.log(numss.has(3));
         output:True.
+
+        //map
+
+
+       let map=new Map();
+
+       map.set("Arun","java");
+       map.set("Ravi","JavaScript");
+       map.set("Allen","Bootstarp");
+
+       console.log(map.get("Arun"));
+
+       output:Java
