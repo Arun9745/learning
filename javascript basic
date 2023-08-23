@@ -27,6 +27,7 @@ ex:parseInt(123 Arun)
 ===  --->It takes both data and types
 
 
+ 
 For using if else statement, there  is a keyword ?:
    //let arr=8;
      let res;
