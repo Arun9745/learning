@@ -28,3 +28,7 @@ xs-Extra smaller device
     <div class="col-md-2 well">box4</div>
     <div class="col-md-2 well">box5</div>
     <div class="col-md-2 well">box6</div>
+
+//Text Property
+ we give text color in the paragraph using (class="text-primary")
+ we give background color in the paragraph using (class="bg-primary")
