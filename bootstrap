@@ -30,5 +30,7 @@ xs-Extra smaller device
     <div class="col-md-2 well">box6</div>
 
 //Text Property
- we give text color in the paragraph using (class="text-primary")
- we give background color in the paragraph using (class="bg-primary")
+ *we give text color in the paragraph using (class="text-primary")
+ *we give background color in the paragraph using (class="bg-primary")
+ *lead it is used for highlight a word.(class="lead")
+ |*small is used for reduce the size of the word.(class="small")
