@@ -51,3 +51,53 @@ xs-Extra smaller device
    *table-condensed--->It remove padding in the table
    *table-hover--->It shows arrow mark in the table with blink
    *table-responsive--->It uses in div class and it is for using in the mobile phone.
+
+   <body>
+    <div class="responsive">
+<table class=" table table-striped">
+    <tr>
+        <th>S.no</th>
+        <th>Name</th>
+        <th>contact</th>
+        <th>email</th>
+    </tr>
+    <tr>
+        <th>1.</th>
+        <th>Arun</th>
+        <th>12345</th>
+        <th>arun.com</th>
+    </tr>
+    <tr>
+        <th>2.</th>
+        <th>Varun</th>
+        <th>1234578</th>
+        <th>varun.com</th>
+    </tr>
+    <tr>
+        <th>3.</th>
+        <th>Aruna</th>
+        <th>1234544</th>
+        <th>aruna.com</th>
+    </tr>
+    <tr>
+        <th>4.</th>
+        <th>ArunPrasanth</th>
+        <th>1234533</th>
+        <th>arunprasanth.com</th>
+    </tr>
+</table>
+</div>
+
+ //Bootstarp image
+    *img-responsive
+    *img-rounded-photo edges curve
+    *img-circle--->photo circle
+    *Img-thumbnail--->cretaing photo frame
+
+
+//bootstarp buttons
+   <button type="button" class="btn"></button>
+   *btn-default
+   *btn-primary
+   *btn-success
+   *btn-danger
