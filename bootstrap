@@ -33,4 +33,21 @@ xs-Extra smaller device
  *we give text color in the paragraph using (class="text-primary")
  *we give background color in the paragraph using (class="bg-primary")
  *lead it is used for highlight a word.(class="lead")
- |*small is used for reduce the size of the word.(class="small")
+ *small is used for reduce the size of the word.(class="small")
+ *alignment-text alignment for webpage.(class="text-justify")
+   text-right
+   text-left
+   text-center
+   text-justify
+*font
+    text-uppercase
+    text-lowercase
+    text-capitalize
+
+
+//Table Format
+   *table-striped--->It give zebra color in the table
+   *table-bordered--->It give border for a table
+   *table-condensed--->It remove padding in the table
+   *table-hover--->It shows arrow mark in the table with blink
+   *table-responsive--->It uses in div class and it is for using in the mobile phone.
