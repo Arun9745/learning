@@ -103,3 +103,4 @@ xs-Extra smaller device
    *btn-danger
    *btn-group
    *btn-group-vertical
+   *btn-group-justified--->It gives full length of the column.
