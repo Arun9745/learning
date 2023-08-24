@@ -102,4 +102,4 @@ xs-Extra smaller device
    *btn-success
    *btn-danger
    *btn-group
-   
+   *btn-group-vertical
