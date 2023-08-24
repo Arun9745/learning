@@ -101,3 +101,5 @@ xs-Extra smaller device
    *btn-primary
    *btn-success
    *btn-danger
+   *btn-group
+   
