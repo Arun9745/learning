@@ -104,3 +104,6 @@ xs-Extra smaller device
    *btn-group
    *btn-group-vertical
    *btn-group-justified--->It gives full length of the column.
+
+   //Button group with dropdown
+   
