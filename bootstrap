@@ -107,4 +107,24 @@ xs-Extra smaller device
 
    //Button group with dropdown
     *btn-primary dropdown-toggle
-    
+    *data-toggle="dropdown"
+    example:
+    <body>
+     <div class="container">
+      <h3> Bootstrap with dropdown</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="btn-group">
+              <button class="btn btn-primary">courses</button>
+              <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  <span class="carat"></span>
+              </button>
+
+              <ul class="dropdown-menu" role="menu">
+              <li><a href="#">c</a></li>
+              <li><a href="#">c++</a></li>
+              <li><a href="#">Java</a></li></ul>
+                </div>
+                </div>
+                 </div>
+                </div>
