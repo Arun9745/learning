@@ -87,6 +87,7 @@ xs-Extra smaller device
     </tr>
 </table>
 </div>
+--------------------------------------------------
 
  //Bootstarp image
     *img-responsive
@@ -94,6 +95,7 @@ xs-Extra smaller device
     *img-circle--->photo circle
     *Img-thumbnail--->cretaing photo frame
 
+------------------------------------------------------------
 
 //bootstarp buttons
    <button type="button" class="btn"></button>
@@ -103,8 +105,11 @@ xs-Extra smaller device
    *btn-danger
    *btn-group
    *btn-group-vertical
-   *btn-group-justified--->It gives full length of the column.
+   *btn-group-justified--->It gives full length of the column,and span the entire width.
+   *btn-block--->It span the entire width of the parent element.
+   *btn-primary-disabled--->It diable the buttons.
 
+----------------------------------------------------------
    //Button group with dropdown
     *btn-primary dropdown-toggle
     *data-toggle="dropdown"
