@@ -3,15 +3,21 @@
 The bootstrap was developed by mark Otto and jacob thornton.
 It is an open source product on git hub.
 
+---------------------------------------------------------------
 
+
+//Shortcut
+
+     *  ul>{$}li*5 and enter it automatically give a listed numbers.
+
+----------------------------------------------
 //container
 
 Using container for giving space in the webpage.(use .container)
 Using container well for giving border for that sentence in the webpage.(use .container well)
 Using container-fluid well for giving border for full webpage.(use .container-fluid well)
-
+--------------------------------------------------------
 //Grid System
-
 
 lg-Larger device
 md-Medium device
@@ -28,7 +34,7 @@ xs-Extra smaller device
     <div class="col-md-2 well">box4</div>
     <div class="col-md-2 well">box5</div>
     <div class="col-md-2 well">box6</div>
-
+---------------------------------------------------------------------
 //Text Property
  *we give text color in the paragraph using (class="text-primary")
  *we give background color in the paragraph using (class="bg-primary")
@@ -44,7 +50,7 @@ xs-Extra smaller device
     text-lowercase
     text-capitalize
 
-
+------------------------------------------------------------------------
 //Table Format
    *table-striped--->It give zebra color in the table
    *table-bordered--->It give border for a table
@@ -87,7 +93,7 @@ xs-Extra smaller device
     </tr>
 </table>
 </div>
---------------------------------------------------
+-------------------------------------------------------------------
 
  //Bootstarp image
     *img-responsive
@@ -95,7 +101,7 @@ xs-Extra smaller device
     *img-circle--->photo circle
     *Img-thumbnail--->cretaing photo frame
 
-------------------------------------------------------------
+------------------------------------------------------------------------
 
 //bootstarp buttons
    <button type="button" class="btn"></button>
@@ -109,7 +115,7 @@ xs-Extra smaller device
    *btn-block--->It span the entire width of the parent element.
    *btn-primary-disabled--->It diable the buttons.
 
-----------------------------------------------------------
+-------------------------------------------------------------------------
    //Button group with dropdown
     *btn-primary dropdown-toggle
     *data-toggle="dropdown"
@@ -135,7 +141,7 @@ xs-Extra smaller device
                 </div>
 
 
-  ----------------------------------------------------------------
+  -----------------------------------------------------------------------
 
   // Bootstrap Glyphicons
 
@@ -158,7 +164,7 @@ xs-Extra smaller device
     *class="badge".---->It is in span class.
 
 
-------------------------------------------------------------------
+----------------------------------------------------------------------------
 
 //  Progress bar
 
@@ -189,7 +195,7 @@ xs-Extra smaller device
 --------------------------------------------------------------------------------
 // Pagination
 
-For cretaing a page number in the website using "pagination" class.
+For creating a page number in the website using "pagination" class.
 Example:
 
 <div class="container">
@@ -209,3 +215,37 @@ Example:
              </div>
 
 -------------------------------------------------------------------------------
+//Breadcrumbs
+
+ It create some design in the webpage.
+ example:
+
+ <ul class="Breadcrumbs">
+  <li><a href="#">1</a></li>
+  <li class="active"><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <li class="disabled"><a href="#">5</a></li>
+ </ul>
+
+ ----------------------------------------------------------------------
+ //Pager
+
+ It is used to change the page using "pager" tag.
+ example:
+ <div class="container">
+     <h3> Bootstrap with dropdown</h3>
+       <div class="row">
+         <div class="col-md-6">
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex voluptates itaque saepe, quis nobis,
+              ullam quas adipisci, dicta odit temporibus molestiae eos laborum voluptatem? Consectetur tenetur tempore odio voluptates iure</p>
+
+        <ul class="pager">
+         <li class="previous"><a href="#">Previous</a></li>
+         <li class="next"><a href="#">next</a></li>
+        </ul>
+         </div>
+
+      </div>
+ </div>
+ ---------------------------------------------------------------------------
