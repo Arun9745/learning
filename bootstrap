@@ -160,5 +160,52 @@ xs-Extra smaller device
 
 ------------------------------------------------------------------
 
-Progress bar
-  # For creating a bar line using "Progress-bar" in class
+//  Progress bar
+
+  # For creating a bar line using "Progress-bar" in class.
+  example:
+  <body>
+ <div class="container">
+     <h3> Bootstrap with dropdown</h3>
+       <div class="row">
+         <div class="col-md-6">
+        <div class="progress">
+     <div class="progress-bar progress-bar-warning" style="width: 50%;">50%</div>
+ </div>
+     <div class="progress">
+         <div class="progress-bar progress-bar-info" style="width: 40%;">40%</div>
+     </div>
+         <div class="progress">
+             <div class="progress-bar progress-bar-danger  progress-bar-striped active" style="width: 60%;">60%</div>
+         </div>
+             <div class="progress">
+                 <div class="progress-bar progress-bar-info  progress-bar-striped" style="width: 20%;">20%</div>
+                    </div>
+                </div>
+               </div>
+               </div>
+
+
+--------------------------------------------------------------------------------
+// Pagination
+
+For cretaing a page number in the website using "pagination" class.
+Example:
+
+<div class="container">
+   <h3> Bootstrap with dropdown</h3>
+     <div class="row">
+       <div class="col-md-6">
+      <ul class="pagination">
+       <li><a href="#">1</a></li>
+       <li class="active"><a href="#">2</a></li>
+       <li><a href="#">3</a></li>
+       <li><a href="#">4</a></li>
+       <li class="disabled"><a href="#">5</a></li>
+      </ul>
+
+      </ul>
+              </div>
+             </div>
+
+-------------------------------------------------------------------------------
