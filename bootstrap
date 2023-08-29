@@ -319,4 +319,25 @@ Example:
 
     </div>
 </div>
------------------------------------------------------------------------------- 
+------------------------------------------------------------------------------
+//ColLapse
+
+The collapse class is used to hide the information in the class.
+Example:
+<div class="container">
+   <div class="row">
+       <div class="col-md-6">
+           <h4>Collapse</h4>
+           <button class="btn btn-success" data-toggle="collapse" data-target="#box"> Click Me</button>
+           <div id="box" class="collapse" style="background-color: teal;color: white;">
+               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Quibusdam aliquam, nesciunt explicabo fuga voluptatum sunt a tempora vitae officiis velit expedita vero, ipsam laudantium totam placeat impedit. Deserunt, suscipit animi!
+               </p>
+           </div>
+
+
+       </div>
+
+    </div>
+</div>
+----------------------------------------------------------------------------
