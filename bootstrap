@@ -267,4 +267,24 @@ Example:
       </div>
  </div>
  -------------------------------------------------------------------------------
- 
+ //Panel
+
+  It is used to add a heading and body and footer in webpage.
+  Example:
+  <div class="container">
+   <h3> Bootstrap with dropdown</h3>
+     <div class="row">
+       <div class="col-md-6">
+         <div class="panel panel-default">
+           <div class="panel-heading">Heading</div>
+           <div class="panel-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Amet perspiciatis corporis molestiae deleniti! Quidem voluptatum in velit. Maiores officiis laborum aspernatur pariatur obcaecati fugiat quos illum, aut, iure, quaerat dolorem.</div>
+           <div class="panel-footer">Footer</div>
+         </div>
+       </div>
+
+    </div>
+</div>
+
+----------------------------------------------------------------------------------
+//dropdown
