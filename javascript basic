@@ -4,7 +4,7 @@ example: console.log("Hello World")
 
 use keyword let for giving variables
 ex:let num=0;
-And use const keyword for constant variables.It will not change the value afetr we assign it.
+And use const keyword for constant variables.It will not change the value after we assign it.
 ex:const pi=3.14
 
 we use "typeof" in console.log for know about it is string or number.
@@ -27,7 +27,7 @@ ex:parseInt(123 Arun)
 ===  --->It takes both data and types
 
 
- 
+
 For using if else statement, there  is a keyword ?:
    //let arr=8;
      let res;
@@ -161,7 +161,7 @@ example:
      console.log(data)---->output:[0,1,2,3,4]
 
      //Splice
-     t a remove a value in the middle.
+     It a remove a value in the middle.
      example:
      let data=[1,2,3,4]
      console.log(data.splice(1,1));
