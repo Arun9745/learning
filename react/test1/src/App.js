@@ -2,8 +2,9 @@
 import './App.css';
 
 function App() {
-  
-  return  <div className="App">Hello</div>;
+    return (
+      <h2>Hello Coders</h2>
+    )
   }
-
+                        
 export default App;
