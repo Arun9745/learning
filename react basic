@@ -1,1 +1,27 @@
-React components 
+React  its two types
+ . function components
+ . Class Components
+
+Function Components
+    function name(){
+    return()
+    }
+
+Class Components
+    class name extends react.component{
+    render(
+    return()
+    )
+    }
+
+
+Arrow function
+It is mainly used in project comparing to function and class components.
+Example:
+     const Apple = (props) => {
+     const{appleinfo}= props;
+     const{color,type}=appleinfo;
+     return(
+         <h2>I am {color} {type} apple</h2>
+     )
+}
