@@ -25,3 +25,8 @@ Example:
          <h2>I am {color} {type} apple</h2>
      )
 }
+
+
+
+Properties(props)
+  props is used to assin a value to components by directly.
