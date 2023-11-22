@@ -30,3 +30,16 @@ Example:
 
 Properties(props)
   props is used to assin a value to components by directly.
+
+
+
+Conditional Rendering
+return(
+        <>
+        <h1>Who lives inside my Garage </h1>
+        {carinfo.brand !== undefined && carinfo.brand !==undefined ?
+        <Car carinfo={carinfo} /> : null}
+        <Apple appleinfo={appleinfo} />
+        {dooropened?<h2> The door is opened</h2>: <h2> The door is not opened</h2>}
+        </>
+    );
