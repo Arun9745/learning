@@ -16,6 +16,8 @@ function App() {
         <li><Link to='/contact-us'>Contact-us</Link></li>
         <li><Link to='/user/1'>user1</Link></li>
         <li><Link to='/user/2'>user2</Link></li>
+        <li><Link to='/books/oldbooks'>Oldbook</Link></li>
+        <li><Link to='/books/newbooks'>Newbook</Link></li>
       </ul>
        <Routes>
         <Route path='/' element={<Home />} />

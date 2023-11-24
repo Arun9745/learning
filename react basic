@@ -98,3 +98,12 @@ Route Parameters
  It is used to show the user id easily by using route method and : .
  Example:
   <Route path='/User/:id' element={<User />} />
+
+
+Nested Routes
+  It is used to create a route inside a another route by a parent class and child class.
+  Example:
+    <Route path='/books'>
+        <Route path='oldbooks' element={<User />} />
+        <Route path='newbooks' element={<User />} />
+        </Route>
