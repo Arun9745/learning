@@ -92,3 +92,9 @@ React router using BrowserRouter,Routes,Route for change into another page by cl
       <Route path='/contact-us' element={<Contact />} />
      </Routes>
       </BrowserRouter>
+
+
+Route Parameters
+ It is used to show the user id easily by using route method and : .
+ Example:
+  <Route path='/User/:id' element={<User />} />
