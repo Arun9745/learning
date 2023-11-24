@@ -7,7 +7,7 @@ function Garage() {
     const appleinfo={color: "green",type:"fruit"};
     const dooropened=false;
     const carlist=[
-        {brand: "BMW" ,color: "Red"},
+        {brand: "BMW" ,color: "Red"}, 
         {brand: "Ford" ,color: "White"},
         {brand: "Tesla" ,color: "blue"},
     ]

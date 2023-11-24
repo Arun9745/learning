@@ -74,4 +74,21 @@ function Garage() {
 }
 
 
-Inline CSS Styling
+React router
+ It is used to avoid the refresh page for that using link tag.
+   Example: <li><Link to='/'>Home</Link></li>
+
+React router using BrowserRouter,Routes,Route for change into another page by clicking the link.
+   Example:
+   <BrowserRouter>
+   <ul>
+      <li><Link to='/'>Home</Link></li>
+      <li><Link to='/about'>About</Link></li>
+      <li><Link to='/contact-us'>Contact-us</Link></li>
+    </ul>
+     <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/about' element={<About />} />
+      <Route path='/contact-us' element={<Contact />} />
+     </Routes>
+      </BrowserRouter>
