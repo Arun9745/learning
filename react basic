@@ -98,6 +98,7 @@ Route Parameters
  It is used to show the user id easily by using route method and : .
  Example:
   <Route path='/User/:id' element={<User />} />
+And using useparams for getting parameters from parent components.
 
 
 Nested Routes
@@ -107,3 +108,19 @@ Nested Routes
         <Route path='oldbooks' element={<User />} />
         <Route path='newbooks' element={<User />} />
         </Route>
+
+Navigating Programmatically
+ It is used to navigate a component from one class to another class,bby using usenavigate
+  Example:
+  export default function Login() {
+const navigate =useNavigate();
+
+function onSubmit(){
+navigate('/dashboard')
+}
+
+return <>
+<h1>Login page</h1>
+<button onClick={onSubmit}>login</button>
+</>
+}
