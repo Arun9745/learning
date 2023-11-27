@@ -125,35 +125,7 @@ return <>
 </>
 }
 
-
-
-Usestate hook
- It is a function to add state in functional component.
-
-Example:
-import React ,{useState} from 'react'
-
-const App = () => {
-const [counter, SetCounter]=useState(0);
-
-function IncreaseCounter() {
- SetCounter(counter+1);
-}
-
-return (
- <div>
-   <h1>Counter: {counter}</h1>
-     <button onClick={IncreaseCounter}>Increase</button>
-
- </div>
-)
-}
-
-export default App
-
-
-
-React Hooks
+ React Hooks
 1.useState
   The usestate is used to increment or decrement a value in a app function.
    Example:
@@ -172,3 +144,30 @@ React Hooks
   </div>
   )
   }
+
+2.useEffect
+  It is mainly used in project for side effects,it is advanced than usestate
+
+Example:
+import React, {useState,useEffect} from "react";
+
+const App = () =>{
+const[count,setCount]=useState(0);
+const[msg,setMsg]=useState('Initial message');
+
+useEffect(() =>{
+   console.log('compund mounted/ updated');
+   console.log(msg);
+   console.log('count is increased to',count);
+},[count,msg])
+
+return(
+<div>
+   <button onClick={() =>{setCount(count+1)}}>Increase</button>
+   <p>The count is :{count}</p>
+   <button onClick={() =>{setMsg('msg updated on click event')}}>update message</button>
+</div>
+)
+};
+
+export default App;
