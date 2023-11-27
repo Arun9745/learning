@@ -150,3 +150,25 @@ return (
 }
 
 export default App
+
+
+
+React Hooks
+1.useState
+  The usestate is used to increment or decrement a value in a app function.
+   Example:
+   const App = () => {
+      const [counter, SetCounter]=useState(0);
+
+    function DecreaseCounter() {
+      SetCounter(counter-1);
+   }
+
+  return (
+  <div>
+    <h1>Counter: {counter}</h1>
+      <button onClick={DecreaseCounter}>Decrease</button>
+
+  </div>
+  )
+  }
