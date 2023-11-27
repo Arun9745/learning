@@ -147,7 +147,7 @@ return <>
 
 2.useEffect
   It is mainly used in project for side effects,it is advanced than usestate
-
+useEffect is used directly for mounted,for demounted is used in return function.
 Example:
 import React, {useState,useEffect} from "react";
 
