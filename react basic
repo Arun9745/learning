@@ -125,7 +125,14 @@ return <>
 </>
 }
 
- React Hooks
+React Hooks
+
+Basic hooks:
+  *useState
+  *useEffect
+  *useContext
+
+  
 1.useState
   The usestate is used to increment or decrement a value in a app function.
    Example:
