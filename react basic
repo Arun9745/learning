@@ -270,3 +270,19 @@ const Counter=() =>{
 }
 
 export default Counter;
+
+5.useContext
+   It is used to overcome a another component.
+    Example:
+     import React,{createContext,useContext,useState} from "react";
+
+     const UserContext =createContext();
+     export default function -----(){
+     const [user]=useState("Arun");
+     return(
+     <UserContext.Provider value={user}>
+     <h1>----</h1>
+     </>
+     </UserContext.Provider>
+     )
+     }
