@@ -286,3 +286,11 @@ export default Counter;
      </UserContext.Provider>
      )
      }
+
+6.useCallback
+
+ It is used to call back the value by const method.
+   Example:
+     const Increment =useCallback(()=>{
+     setCount(---------)
+     },[count])
