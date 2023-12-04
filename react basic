@@ -132,7 +132,7 @@ Basic hooks:
   *useEffect
   *useContext
 
-  
+
 1.useState
   The usestate is used to increment or decrement a value in a app function.
    Example:
@@ -178,3 +178,55 @@ return(
 };
 
 export default App;
+
+
+
+3.useEffect with Cleanup Method.
+  This component using useState Method
+
+  import React,{useState} from "react";
+ import CompA from "./CompA";
+
+const Cleanup=() =>{
+    const[toggle,setToggle]=useState(true);
+    return(
+        <div>
+            <p>useEffect with Cleanup</p>
+            <button onClick={()=>{setToggle(!toggle)}}>show/hide compA</button>
+            {toggle ? <CompA />: null}
+        </div>
+    )
+}
+
+export default Cleanup;
+
+
+This component using useEffect method.
+
+import react, {useEffect} from 'react';
+
+const CompA=() =>{
+
+    useEffect(() =>{
+      //Effect goes here
+      console.log('Effect goes here');
+       const timerId = setInterval(() =>{
+        console.log('API call executed')
+       },2000);
+
+      return() =>{
+        //Cleanup goes here
+        console.log('Cleanup goes here');
+        clearInterval(timerId);
+      }
+    },[]);
+
+    return(
+        <div>
+            <p>component A</p>
+            <hr />
+        </div>
+    )
+};
+
+export default CompA;
