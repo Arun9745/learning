@@ -1,10 +1,10 @@
 import './App.css';
-import Cleanup from './components/Cleanup';
-
+import Counter from './components/Counter';
+  
 function App() {
   return(
     <div className="App">
-      <Cleanup />
+      <Counter />
     </div>
   )
 };
