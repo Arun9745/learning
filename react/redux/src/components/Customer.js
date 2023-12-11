@@ -25,5 +25,5 @@ export default function Customer() {
     </div>
     
     </> 
-}
+}                
 

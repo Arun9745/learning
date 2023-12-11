@@ -322,3 +322,6 @@ return <div>
     <button onClick={addCustomer}>Add</button>
 </div>
 }
+
+
+Adding customer delete
