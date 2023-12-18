@@ -1,5 +1,5 @@
 import React,{useState} from "react"
-import CustomerView from "./CustomerView";
+/*import CustomerView from "./CustomerView";*/
 import { addCustomer as addCustomerAction } from "../Slice/CustomerSlice";
 import { useDispatch } from "react-redux";
 
@@ -23,7 +23,7 @@ export default function Customer() {
         />
         <button onClick={addCustomer}>Add</button>
     </div>
-    
+      
     </> 
 }                
 
