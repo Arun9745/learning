@@ -13,6 +13,7 @@ let name="Arun";
 console.log(typeof name)
 output---->string
 
+//stripTrailing it is used to remove a space at last of a word.
 
 number+string=string
 number-string=number
@@ -257,3 +258,8 @@ function show(){
 }
 
 show();
+
+
+//Palindrome
+let myReversedString = myString.split("").reverse().join("");
+It is easy method to reverse a nnumber.
