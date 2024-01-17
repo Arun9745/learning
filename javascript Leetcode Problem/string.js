@@ -25,3 +25,29 @@ console.log(c)
    //index of
    let t=first_name.indexOf('P');
    console.log(t)
+
+   //Substring
+   let m;
+   let table= "0123456789";
+    m=table.substring(2,5);
+    console.log(m)
+
+    //Slice
+    let g;
+    g=table.slice(-3);
+    console.log(g)
+
+    //Split
+    let r;
+    let y="Tutor joes Computer Education";
+    r=y.split(" ");
+    console.table(r)
+
+    //Padstart Padend
+    let q="5"
+    q=q.padEnd(3,7)
+    console.log(q)
+
+     let w="5"
+    w=w.padStart(3,7)
+    console.log(w)
