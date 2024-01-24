@@ -8,4 +8,7 @@ for(let i=lower;i<=higher;i++){
             break;
         }
     }
+    if(i>1 && flag==0){
+        console.log(i)
+    }
 }
