@@ -1,6 +1,10 @@
-var isPalindrome = function(x) {
+ const x="madam";
     let arr = String(x);
     arr = arr.split("").reverse().join("");
-    if(String(x)==arr) return true;
-    else return false;
-    };
+    if(String(x)==arr){
+        console.log("palindrome");
+    }
+    else{
+        console.log("not Palindrome");
+    } 
+    
